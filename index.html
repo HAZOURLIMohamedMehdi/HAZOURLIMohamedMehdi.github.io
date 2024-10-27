@@ -1,0 +1,70 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="HomePageCss.css">
+    
+</head>
+<body>
+
+    <nav class="navbar">
+
+        <a class="logo"><i class="fa fa-lock"></i>MYR Password Generator</a>
+        <div class="nav-links">
+            <ul>
+                <li class="active"> <a href="#Home">Home</a> </li>
+                <li> <a href="#Contact">Contact</a> </li>
+            </ul>
+        </div>
+
+        <i class="fa fa-bars menu-bar"></i>
+    </nav>
+
+    <header>
+
+
+    </header>
+   <div id="Home" style="padding-bottom: 70px;background-color: aqua;"><div>
+        <div class="titre-site">
+            <span class="titre">Welcome <br>
+                Generate your password  <br>
+            as you want</span>
+
+        </div>
+
+    </div >
+    <div class="generator-input">
+        <div class="option-range-caracter">
+            <label class="option-range-caracter-label">
+            <span>8 Caracters</span>
+            <input id="range_bar" type="range" name="" min="6" max="30" value="8"></label>
+        </div>
+        <div class="input-parent">
+         <i class="fa fa-copy"></i>
+         <input type="text" name="" value="IlKdldlzoxkS# F5Sdmlz" class="input"  readonly>
+         <button onclick="pass_gen()" class="generator-button" ><i class="fa fa-refresh"></i></button>
+     </div>
+     <div class="options">
+        <div class="option-line1">
+            <label id="option1"><input type="checkbox" name="">
+                <span>&nbsp;&nbsp;Upper Case</span></label>
+                <label id="option2">  <input type="checkbox" name="">
+                    <span>&nbsp;&nbsp;Lower Case</span></label>
+                    <label id="option3">  <input type="checkbox" name="">
+                        <span>&nbsp;&nbsp;Add Numbers(1,2,3...)</span></label>
+                    </div>
+                    <div class="option-line2">
+                        <label id="option4"> <input type="checkbox" name="" >
+                            <span>&nbsp;&nbsp;Special Characters(#,$,&...)</span></label>
+                            </div>
+                        </div>
+                    </div></div>
+
+<div  id="Contact" style="background-color: green; height: 800px;"></div>
+
+                </body>
+                <script src="HomePage.js"></script>
+                </html>
