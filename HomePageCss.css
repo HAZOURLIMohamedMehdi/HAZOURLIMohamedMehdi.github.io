@@ -97,10 +97,12 @@ header{
 }
 
 .input-parent .input{
+    font-size: 23px;
     flex: 70%;
     border: none;
     box-shadow: 0 4px;
     background-color: #aeaeae;
+    padding-left: 10px;
 }
 
 
@@ -235,6 +237,10 @@ padding-bottom: 20px;
 
 @media screen and (max-width:800px) {
 
+
+.input-parent .input{
+    font-size: 15px;
+}
 
     .navbar .logo{
         position: absolute;
